@@ -1,0 +1,559 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.menu_topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.navegacao ul {
+    list-style-type: none;
+    margin-left: 400px;
+}
+
+.navegacao li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.navegacao li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* começando as sessões */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.ss1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.texto_sessao1 {
+    margin: 50px;
+
+}
+
+.texto_sessao1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.texto_sessao1 input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #DA5F17;
+    color: white;
+    border-color: orange;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.ss1 img {
+    position: relative;
+    width: 600px;
+    margin-top: 50px;
+
+}
+
+
+/* sessão 2 */
+
+.ss2 {
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.ss2 img {
+    position: relative;
+    width: 650px;
+
+}
+
+.texto_sessao2 {
+    margin: 90px;
+    margin-left: 130px;
+}
+
+.texto_sessao2 h3 {
+    color: #DA5F17;
+    font-size: 30px;
+}
+
+.texto_sessao2 p {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.traco {
+    margin-top: 5px;
+    width: 70px;
+    height: 3px;
+    background-color: #DA5F17;
+    border-radius: 30px;
+}
+
+/* sessao 3 */
+
+.ss3 {
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.texto_sessao3 {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.texto_sessao3 h3 {
+    color: #DA5F17;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.texto_sessao3 .traco {
+    margin-left: 270px;
+}
+
+.texto_sessao3 p {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.texto_sessao3 input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #DA5F17;
+    color: white;
+    border-color: orange;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.ss3 img {
+    width: 350px;
+    height: 350px;
+}
+
+.ss3 .img1 {
+    width: 300px;
+    height: 350px;
+}
+
+.ss3 .img_sessao3 {
+    max-width: 100%;
+}
+
+.ss3 .img_sessao3-2 {
+    width: 300px;
+    max-width: 100%;
+}
+
+/* sessao 4 */
+
+.ss4 {
+    display: flex;
+    background-color: #DA5F17;
+    padding: 40px 70px 40px 70px;
+    width: 100%;
+}
+
+.ss4 .prod {
+    background-color: #fff;
+    height: 300px;
+    width: 280px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid #DA5F17;
+    text-align: center;
+}
+
+.prod img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.traco2 {
+    margin-top: 6px;
+    width: 155px;
+    height: 3px;
+    background-color: #DA5F17;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.traco2-1 {
+    margin-top: 24.6px;
+    width: 155px;
+    height: 3px;
+    background-color: #DA5F17;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.prod h4 {
+    margin-top: 10px;
+}
+
+.prod p {
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+/* sessão 5 */
+
+.ss5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.ss5 .img5 {
+
+    width: 550px;
+}
+
+.texto_sessao5 {
+    padding-top: 30px;
+}
+
+.texto_sessao5 h3 {
+    color: #DA5F17;
+    font-size: 30px;
+    margin: 40px 0 40px;
+}
+
+.ss5 .img_5-1 {
+    margin-top: 100px;
+
+}
+
+/* sessão 6 */
+
+.ss6 {
+    margin-top: 70px;
+}
+
+.traco3 {
+    margin-top: 6px;
+    width: 100%;
+    height: 2px;
+    background-color: #DA5F17;
+    border-radius: 30px;
+
+}
+
+.ss6 p {
+    text-align: center;
+    margin: 25px;
+}
+
+
+/* ------------------------------------------------------- */
+/* ----------------------MOBILE--------------------------- */
+
+nav.nav-mobile {
+    display: none;
+    /* Não vai aparecer */
+    float: right;
+}
+
+nav.nav-mobile ul {
+    display: none;
+    position: absolute;
+    /* Vai sobrepor tudo */
+    width: 100%;
+    /* largura */
+    background-color: #DA5F17;
+    /* cor plano de fundo */
+    left: 0;
+    /* Só pra sumir as bolinhas */
+    top: 0;
+    /* Só pra tirar o espaço de cima */
+    text-align: center;
+    /* Alinhar texto no centro */
+    padding: 50px 0 30px 0;
+    /* Espaçamento em volta */
+    /* top right bottom left */
+}
+
+nav.nav-mobile li {
+    padding: 5px 0;
+    /* top/bottom | right/left */
+}
+
+nav.nav-mobile a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+
+    /* TIRANDO IMAGENS */
+    .img_sessao2 {
+        display: none;
+    }
+
+    .img_sessao3 {
+        display: none;
+    }
+
+    .img_sessao3-2 {
+        display: none;
+    }
+
+    .img_sessao5 {
+        display: none;
+    }
+
+    /* HEADER */
+    .container {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .menu_topo {
+        margin: 0 auto;
+
+        justify-content: none;
+    }
+
+    .logo {
+        margin-left: 2%;
+    }
+
+    nav.navegacao {
+        display: none;
+    }
+
+    nav.nav-mobile {
+
+        display: block;
+    }
+
+    /* SESSÃO 01 */
+    .ss1 {
+        margin: 0 auto;
+        margin: 7%;
+    }
+
+    .Img_sessao1 {
+        display: none;
+    }
+
+    .texto_sessao1 {
+        margin: 0 auto;
+        text-align: center;
+        color: #565656;
+
+    }
+
+    .texto_sessao1 h1 {
+
+        font-size: clamp(28px, 8vw, 40px);
+        border: 2px solid #565656;
+    }
+
+    .texto_sessao1 input {
+        margin: 0 auto;
+        margin-top: 15%;
+        font-size: clamp(10px, 5vw, 25px);
+        width: 75%;
+        height: 20%;
+    }
+
+    /* SESSÃO 02 */
+    .sessao_2 {
+        margin: 0 auto;
+        margin-top: 15%;
+    }
+
+    .ss2 {
+        margin: 0 auto;
+        background-image: url(../img/imagem_banner2.svg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .texto_sessao2 {
+        margin: 0 auto;
+        text-align: center;
+        background-color: #fefdf8d2;
+        margin: 10%;
+        padding: 2%;
+    }
+
+    .texto_sessao2 .traco {
+        margin: 0 auto;
+        margin-top: 6%;
+    }
+
+    .texto_sessao2 h3 {
+        font-size: clamp(20px, 7vw, 30px);
+
+    }
+
+    .texto_sessao2 p {
+        color: #565656;
+        margin: 0 auto;
+        margin-top: 6%;
+        font-size: clamp(10px, 5vw, 20px);
+    }
+
+    /* SESSÃO 03 */
+    .sessao_3 {
+        margin: 0 auto;
+
+    }
+
+    .texto_sessao3 {
+        margin: 0 auto;
+    }
+
+    .texto_sessao3 input {
+        font-size: clamp(10px, 5vw, 25px);
+        width: 75%;
+        height: 15%;
+    }
+
+    .texto_sessao3 h3 {
+        font-size: clamp(20px, 7vw, 30px);
+
+    }
+
+    .texto_sessao3 .traco {
+        margin: 0 auto;
+        margin-top: 6%;
+    }
+
+    .texto_sessao3 p {
+        color: #565656;
+        margin: 0 auto;
+        font-size: clamp(10px, 5vw, 20px);
+        margin: 6% 8% 0 8%;
+    }
+
+    /* SESSÃO 04 */
+    .sessao_4 {
+        margin: 0 auto;
+        margin-top: 18%;
+
+    }
+
+    .ss4 {
+
+        overflow-x: auto;
+        padding: 40px 10px;
+    }
+
+    .ss4::-webkit-scrollbar {
+        width: 1px;
+        border: none;
+    }
+
+    .ss4::-webkit-scrollbar-thumb {
+        background-color: #56565677;
+        border-radius: 10px;
+    }
+
+    .traco2 {
+        margin: 0 auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 7px;
+    }
+
+    .traco2-1 {
+        margin: 0 auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 24.6px;
+    }
+
+    .prod p {
+        color: #565656;
+        margin: 0 auto;
+        margin-top: 7px;
+    }
+
+    /* SESSÃO 05 */
+    .sessao_5 {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .ss5 {
+
+        margin: 0 auto;
+    }
+
+    .texto_sessao5 {
+        padding: 0;
+        text-align: center;
+    }
+
+    .texto_sessao5 h3 {
+        font-size: clamp(20px, 7vw, 30px);
+        margin: 0 auto;
+        margin: 10%;
+    }
+
+    .img5-1 {
+        width: 100%;
+    }
+
+}
+
+
+/* _____________________ */
+
+.slide{
+
+    margin-bottom: 5% ;
+}
+.slides {
+    width: 100%;
+    height: 195px;
+    overflow-y: auto;
+    padding: 40px 10px;
+}
+.slides::-webkit-scrollbar {
+    width: 10px;
+    border: none;
+}
+
+.slides::-webkit-scrollbar-thumb {
+    background-color: #56565677;
+    border-radius: 10px;
+}
