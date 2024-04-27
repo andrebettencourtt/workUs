@@ -181,12 +181,16 @@
 
 .ss4 {
     display: flex;
+    justify-content: center;
     background-color: #DA5F17;
     padding: 40px 70px 40px 70px;
     width: 100%;
 }
 
 .ss4 .prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #fff;
     height: 300px;
     width: 280px;
@@ -197,6 +201,7 @@
 }
 
 .prod img {
+    
     position: relative;
     height: 100px;
     width: 100px;
@@ -209,16 +214,16 @@
     height: 3px;
     background-color: #DA5F17;
     border-radius: 30px;
-    margin-left: 40px;
+    
 }
 
 .traco2-1 {
-    margin-top: 24.6px;
+    margin-top: 6px;
     width: 155px;
     height: 3px;
     background-color: #DA5F17;
     border-radius: 30px;
-    margin-left: 40px;
+    
 }
 
 .prod h4 {
@@ -252,6 +257,7 @@
     color: #DA5F17;
     font-size: 30px;
     margin: 40px 0 40px;
+    text-align: center;
 }
 
 .ss5 .img_5-1 {
@@ -549,8 +555,7 @@ nav.nav-mobile a {
     padding: 40px 10px;
 }
 .slides::-webkit-scrollbar {
-    width: 10px;
-    border: none;
+    display: none;
 }
 
 .slides::-webkit-scrollbar-thumb {
